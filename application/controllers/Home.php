@@ -8,11 +8,7 @@ class Home extends CI_Controller {
 	}
   public function index()
   {
-    $data['title'] = "title"
-
+    $data['title'] = "Login";
+    $this->load->view('login/login', $data);
   }
 }
-/* End of file ${TM_FILENAME:} */
-/* Location: ./${TM_FILEPATH/.+((?:application).+)//:application/controllers/} */
-/* End of file ${TM_FILENAME:filename.php} */
-/* Location: ./${TM_FILEPATH/.+((?:application|system).+)//:application/*models|controllers*/.php/} */
