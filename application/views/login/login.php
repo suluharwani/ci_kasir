@@ -11,12 +11,11 @@
   <div id="triangle"></div>
   <h1>Log in</h1>
   <form>
-    <input type="email" placeholder="Email" />
-    <input type="password" placeholder="Password" />
+    <input type="text" id="uname" placeholder="Username" />
+    <input type="password" id="passwd" placeholder="Password" />
     <input type="submit" value="Log in" />
   </form>
 </div>
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
   <script src="<?=base_url('assets/')?>login/js/login.js"></script>
 </body>
 </html>
