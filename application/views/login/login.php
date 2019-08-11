@@ -16,6 +16,7 @@
     <input type="submit" value="Log in" />
   </form>
 </div>
-  <script src="<?=base_url('assets/')?>login/js/login.js"></script>
+<script src="<?=base_url('assets/')?>login/js/login.js"></script>
+<script src="<?=base_url('assets/')?>login/js/jquery.js"></script>
 </body>
 </html>
