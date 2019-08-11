@@ -1,9 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 class Admin extends CI_Controller {
+  public function __construct()
+  {
+    parent::__construct();
+    date_default_timezone_set('Asia/Jakarta');
+  }
   public function index()
   {
 
+  }
+  function check_adm(){
+    echo "check admin";
   }
   public function backup_database(){
   	$this->load->dbutil();
