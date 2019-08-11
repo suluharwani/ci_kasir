@@ -8,7 +8,6 @@ class Admin extends CI_Controller {
   }
   public function index()
   {
-
   }
   function check_adm(){
     echo "check admin";
@@ -17,7 +16,7 @@ class Admin extends CI_Controller {
   	$this->load->dbutil();
   	$prefs = array(
   		'format'      => 'zip',
-  		'filename'    => 'erigrafika.sql',
+  		'filename'    => 'kasir.sql',
   	);
   	$backup =& $this->dbutil->backup($prefs);
   	$db_name = 'backup-on-'. date("Y-m-d-H-i-s") .'.zip';
